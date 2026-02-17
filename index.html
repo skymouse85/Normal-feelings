@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <main class="page">
+        <section class="stage" aria-label="Normal Feelings landing collage">
+            <!-- BG Vid -->
+             <!-- <video 
+                id="NF_BG-video"
+                class="layer video"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="auto"
+             >
+                <source src="assets/NF_ani_trans.gif" type="video/gif">
+            </video> -->
+            <!-- overlay, position in styles sheet -->
+            <img class="layer gif" src="assets/NF_ani_trans.gif">
+            <img class="layer right-frame" src="assets/right_Chrome_Frame.png" alt="">
+
+            <img class="layer left-frame" src="assets/left_Chrome_Frame.png" alt="">
+            <img class="layer dingo" src="assets/DINGO.png" alt="">
+            <img class="layer flowers" src="assets/Flowers.png" alt="">
+            <img class="layer ostrich" src="assets/OSTRICH.png" alt="">
+            <img class="layer def21" src="assets/def21crop.png" alt="">
+
+            <!-- Audio -->
+             <audio
+                id="NF_BG-audio"
+                src="assets/NF_BG-audio.mp3"
+                loop
+                preload="auto"
+             ></audio>
+
+             <!-- fallback button for audio if browser blocks play -->
+            <button id="sound-gate" class="sound-gate" type="button">There Is Sound!</button>
+        </section>
+   </main>
+   <script src="app.js"></script>
+
+</body>
+</html>
